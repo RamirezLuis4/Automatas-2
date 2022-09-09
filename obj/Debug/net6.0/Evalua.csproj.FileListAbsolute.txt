@@ -1,0 +1,15 @@
+C:\Users\tprog\OneDrive\Documentos\Evalua\bin\Debug\net6.0\Evalua.exe
+C:\Users\tprog\OneDrive\Documentos\Evalua\bin\Debug\net6.0\Evalua.deps.json
+C:\Users\tprog\OneDrive\Documentos\Evalua\bin\Debug\net6.0\Evalua.runtimeconfig.json
+C:\Users\tprog\OneDrive\Documentos\Evalua\bin\Debug\net6.0\Evalua.dll
+C:\Users\tprog\OneDrive\Documentos\Evalua\bin\Debug\net6.0\Evalua.pdb
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.csproj.AssemblyReference.cache
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.AssemblyInfoInputs.cache
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.AssemblyInfo.cs
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.csproj.CoreCompileInputs.cache
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.dll
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\refint\Evalua.dll
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.pdb
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\Evalua.genruntimeconfig.cache
+C:\Users\tprog\OneDrive\Documentos\Evalua\obj\Debug\net6.0\ref\Evalua.dll
