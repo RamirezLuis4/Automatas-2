@@ -43,6 +43,13 @@ namespace Evalua
         private void modValor(string name, float newValue)
         {
             //Requerimiento 3
+            foreach (Variable v in listaVariables)
+            {
+                if (v.getNombre().Equals(name))
+                {
+                    v.setValor(newValue);
+                }
+            }
         }
         private float getValor(string nameVariable)
         {
@@ -179,7 +186,10 @@ namespace Evalua
             match("(");
             if (getClasificacion() == Tipos.Cadena)
             {
-                Console.Write(getContenido());
+                string comilla = getContenido();
+                comilla = comilla.Replace("\\n" , "\n");
+                comilla = comilla.Replace("\\t" , "\t");
+                Console.Write(comilla.Substring(1, comilla.Length - 2));
                 match(Tipos.Cadena);
             }
             else
@@ -204,6 +214,7 @@ namespace Evalua
                 throw new Error("Error de sintáxis: Variable no existe \"" + getContenido() + "\" en la línea " + linea + ".", log);
             }
             string value = "" + Console.ReadLine();
+            float valor = float.Parse(value);
             //Requerimiento 5. Modificar el valor de la variable.
             match(Tipos.Identificador);
             match(")");
