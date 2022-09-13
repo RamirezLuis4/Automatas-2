@@ -54,6 +54,13 @@ namespace Evalua
         private float getValor(string nameVariable)
         {
             //Requerimiento 4.
+            foreach (Variable v in listaVariables)
+            {
+                if (v.getNombre().Equals(nameVariable))
+                {
+                    return v.getValor();
+                }
+            }
             return 0;
         }
         //Programa -> Librerias? Variables? Main
@@ -216,6 +223,7 @@ namespace Evalua
             string value = "" + Console.ReadLine();
             float valor = float.Parse(value);
             //Requerimiento 5. Modificar el valor de la variable.
+            modValor(getContenido(), valor);
             match(Tipos.Identificador);
             match(")");
             match(";");
